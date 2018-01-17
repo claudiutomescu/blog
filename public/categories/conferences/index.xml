@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conferences on #Sharp Monkey</title>
+    <link>http://claudiutomescu.com/categories/conferences/</link>
+    <description>Recent content in Conferences on #Sharp Monkey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://claudiutomescu.com/categories/conferences/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A glimpse into MS Build 2014</title>
+      <link>http://claudiutomescu.com/blog/msbuild-2014/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/msbuild-2014/</guid>
+      <description>Build is Microsoft’s annual developer conference and is probably one of the biggest developers’ conference around; this year’s Build has been a truly remarkable one. Microsoft has made a ton of announcements and released a great deal of interesting updates and preview products. It really is a very exciting time to be a Microsoft .NET developer, and I personally am looking forward to building new cool applications with these technologies.</description>
+    </item>
+    
+  </channel>
+</rss>

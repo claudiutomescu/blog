@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://claudiutomescu.com/blog/vscode-mssql-linux/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/about/</loc>
+    <lastmod>2017-08-25T12:21:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/blog/howto-efcore-vs2017/</loc>
+    <lastmod>2017-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/blog/write-once-run-anywhere/</loc>
+    <lastmod>2014-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/blog/leadership-management/</loc>
+    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/blog/msbuild-2014/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/blog/upgrading-aging-net-applications/</loc>
+    <lastmod>2014-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/blog/mobile-development-today/</loc>
+    <lastmod>2014-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/blog/xamarin-pcl-ios/</loc>
+    <lastmod>2013-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/.net-transformation/</loc>
+    <lastmod>2014-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/blog/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/</loc>
+    <lastmod>2014-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/conferences/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/developmemt/</loc>
+    <lastmod>2014-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/development/</loc>
+    <lastmod>2014-07-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/ef-core/</loc>
+    <lastmod>2017-03-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/leadership/</loc>
+    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/mobile/</loc>
+    <lastmod>2014-07-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/visual-studio/</loc>
+    <lastmod>2017-03-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/xamarin/</loc>
+    <lastmod>2014-07-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

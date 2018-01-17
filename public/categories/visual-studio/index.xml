@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Studio on #Sharp Monkey</title>
+    <link>http://claudiutomescu.com/categories/visual-studio/</link>
+    <description>Recent content in Visual Studio on #Sharp Monkey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://claudiutomescu.com/categories/visual-studio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Add EF Core To VS2017 projects</title>
+      <link>http://claudiutomescu.com/blog/howto-efcore-vs2017/</link>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/howto-efcore-vs2017/</guid>
+      <description>Visual Studio 2017 has been released a few weeks ago, so I&amp;rsquo;m tinkering with the .NET Core tooling in VS2017 as I&amp;rsquo;m following Julie&amp;rsquo;s Pluralsight course on EF Core. In doing so, I&amp;rsquo;ve come across a few things, which I though I would write a blog about, so that other may benefit from.
+EF Core comes with command line tools that you can use outside Visual Studio. This is an alternative to the PowerShell commands you can use from VS&amp;rsquo;s Package Manager&amp;rsquo;s Console.</description>
+    </item>
+    
+  </channel>
+</rss>

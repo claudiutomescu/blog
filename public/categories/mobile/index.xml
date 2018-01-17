@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on #Sharp Monkey</title>
+    <link>http://claudiutomescu.com/categories/mobile/</link>
+    <description>Recent content in Mobile on #Sharp Monkey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Jul 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://claudiutomescu.com/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Write Once, Run Anywhere - Are We There Yet?</title>
+      <link>http://claudiutomescu.com/blog/write-once-run-anywhere/</link>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/write-once-run-anywhere/</guid>
+      <description>For a number of years the software development industry has struggled to find a solution to a rather old idea: write once, run everywhere. First, there was Java, which for a little while seemed to be the answer, however for numerous reasons it didn’t live up to the dream. For a while it looked like everyone gave in, and the chase was off, however Microsoft released the .NET Framework and the game was on, once again.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Development Today</title>
+      <link>http://claudiutomescu.com/blog/mobile-development-today/</link>
+      <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/mobile-development-today/</guid>
+      <description>A recent IDC forecast of shipments of tablets and smartphones predicts that by 2017 87% of connected device sales will be tablets and smartphones. More specifically the forecast predicts that 5-inch devices will take the lead, followed by 7 and 9-inch tablets. Computer sales meanwhile are slowing down and the sales forecast is not encouraging.
+These forecasts underscore the direction that enterprises should focus their efforts; that is invest in mobile development, connected devices and how to get most out of these investments.</description>
+    </item>
+    
+    <item>
+      <title>Xamarin, PCLs, and iOS projects</title>
+      <link>http://claudiutomescu.com/blog/xamarin-pcl-ios/</link>
+      <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/xamarin-pcl-ios/</guid>
+      <description>This posts is motivated by my personal struggle fixing PCL (Portable Class Libraries) project support in latest version of Xamarin Studio (4.2.1 stable).
+I&amp;rsquo;ve been working for a while on a iOS project where some of the core components are built in a PCL project. Before the Xamarin Studio version 4.2.1 a hack was required in order to be able to correctly build and use PCL projects in iOS solutions using Xamarin Studio.</description>
+    </item>
+    
+  </channel>
+</rss>

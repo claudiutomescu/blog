@@ -1,0 +1,930 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Leadership vs Management</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.26" />
+        
+
+
+        
+            <meta name="author" content="Claudiu Tomescu">
+        
+        
+            <meta name="description" content="Thoughts on leadership and management">
+        
+
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Leadership vs Management"/>
+<meta name="twitter:description" content="Thoughts on leadership and management"/>
+<meta name="twitter:site" content="@claudiutomescu"/>
+
+        <meta property="og:title" content="Leadership vs Management" />
+<meta property="og:description" content="Thoughts on leadership and management" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://claudiutomescu.com/blog/leadership-management/" />
+
+
+
+<meta property="article:published_time" content="2014-06-02T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2014-06-02T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Leadership vs Management">
+<meta itemprop="description" content="Thoughts on leadership and management">
+
+
+<meta itemprop="dateModified" content="2014-06-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="611">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">#Sharp Monkey</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://claudiutomescu.com/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://claudiutomescu.com/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            <h3>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://claudiutomescu.com/blog/vscode-mssql-linux/"><p>VS Code &#43; Microsoft SQL Server on Linux</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://claudiutomescu.com/blog/howto-efcore-vs2017/"><p>How To Add EF Core To VS2017 projects</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://claudiutomescu.com/blog/write-once-run-anywhere/"><p>Write Once, Run Anywhere - Are We There Yet?</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://claudiutomescu.com/blog/leadership-management/"><p>Leadership vs Management</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://claudiutomescu.com/blog/msbuild-2014/"><p>A glimpse into MS Build 2014</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f&text=Leadership%20vs%20Management&via=claudiutomescu" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f&title=Leadership%20vs%20Management" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f&title=Leadership%20vs%20Management" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f&title=Leadership%20vs%20Management" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Claudiu%20Tomescu&body=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://claudiutomescu.com/blog/leadership-management/">Leadership vs Management</a></h1>
+            
+        
+        
+            <p>Thoughts on leadership and management</p>
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2014-06-02'>
+            June 2, 2014</time>
+        <span class="author">Claudiu Tomescu</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f&text=Leadership%20vs%20Management&via=claudiutomescu" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f&title=Leadership%20vs%20Management" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f&title=Leadership%20vs%20Management" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f&title=Leadership%20vs%20Management" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Claudiu%20Tomescu&body=http%3a%2f%2fclaudiutomescu.com%2fblog%2fleadership-management%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+    
+
+    
+        
+        
+
+
+
+
+    
+    
+        
+    
+
+
+        
+
+        <a href="http://claudiutomescu.com/blog/leadership-management/" class="image featured">
+            <img src="/img/2014/06/" alt="" />
+        </a>
+    
+
+
+    <div id="content">
+        
+
+<p>Throughout my career I’ve been fortunate enough to have great managers (and not so great ones) from which I’ve, equally, learned something: from the great ones what true leadership means and what it takes to be a good leader; from the not so great ones I’ve learned what mistakes to avoid. This is what I’d like to share with in this short post, and because I believe quotes are the best way to share the wisdom of ages, I’ll use them extensively.</p>
+
+<h2 id="a-leader-is">A Leader Is…</h2>
+
+<blockquote>
+<p>A good leader is a person who takes a little more than his share of the blame and a little less than his share of the credit.
+<em>John C. Maxwell</em></p>
+</blockquote>
+
+<p>This is one of the many quotes that best define what a true leader is, and what differentiate it from a manager. The true leader is selfless in the pursuit of team’s goals and success, often giving up personal goals and aspirations in the process. Be humble and people will notice your leadership more often than if you’re trying to make them aware of your achievements.</p>
+
+<h2 id="boldness-and-courage">Boldness and Courage</h2>
+
+<blockquote>
+<p>Courage is the enforcing virtue, the one that makes possible all the other virtues common
+to exceptional leaders: honesty, integrity, confidence, compassion and humility.
+<em>John McCain</em></p>
+</blockquote>
+
+<p>I don’t think there is better way to say it. Courage is about taking (calculated) risks, going where no one has gone before, opening up new paths and trying new things. A true leader is one who doesn’t fear failing, but rather embraces failure because he/she can learn a lot from it. Leaders are those who not only go outside their comfort zone themselves, but who encourage and help others overcome they fear and do it.</p>
+
+<h2 id="challenges-and-difficulty">Challenges and Difficulty</h2>
+
+<blockquote>
+<p>Leaders aren’t born, they are made. And they are made just like anything else, through hard work. And that’s the price we’ll have to pay to achieve that goal, or any goal.
+<em>Vince Lombardi</em></p>
+</blockquote>
+
+<p>Those who think leaders are only born are those who seek excuses all the time; excuses for not trying get better, for not searching to self-improve, for not trying new things. The path to leadership is very hard, that’s why those who succeed being good leaders are special and people around recognize them right away.</p>
+
+<h2 id="character">Character</h2>
+
+<blockquote>
+<p>Character makes trust possible, and trust is the foundation of leadership.
+<em>John Maxwell</em></p>
+</blockquote>
+
+<p>Character is the only attribute a great leader can’t learn. You either have it or not. Enough said.</p>
+
+<h2 id="communication">Communication</h2>
+
+<blockquote>
+<p>Earn the right to be heard by listening to others. Seek to understand a situation before making judgments about it.
+<em>John Maxwell</em></p>
+</blockquote>
+
+<p>The art of communication is important not only to leaders. I personally believe that everyone should work on being a communicator to be successful in life. It’s incredible how many things one can achieve just by being able to say the right things; make no mistake though: I’m not talking here about being able to deceive others through carefully crafted words, but rather being able to convey to other what you truly hold in your heart.</p>
+
+<p>There are so many other things to talk about leadership, but I promised to myself to keep this short and concise so I’ll end with two quotes that I love very much:</p>
+
+<blockquote>
+<p>The challenge of leadership is to be strong, but not rude; be kind, but not weak; be bold, but not bully; be thoughtful, but not lazy; be humble, but not timid; be proud, but not arrogant; have humor, but without folly.
+<em>Jim Rohn</em></p>
+
+<p>I&rsquo;ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.
+<em>Maya Angelou</em></p>
+</blockquote>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categoriesleadership'>Leadership</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://claudiutomescu.com/blog/msbuild-2014/"
+                class="button big previous">A glimpse into MS Build 2014</a></li>
+    
+
+    
+        <li><a href="http://claudiutomescu.com/blog/write-once-run-anywhere/"
+                class="button big next">Write Once, Run Anywhere - Are We There Yet?</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "claudiutomescublog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+      
+      
+      if (window.location.hostname == "localhost")
+                return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'claudiutomescublog';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	</div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <img src="/img/main/logo.jpg" class="intro-circle" width="" alt="Claudiu" />
+                
+            
+            
+                <header>
+                    <h2>Claudiu Tomescu</h2>
+                    <p>Cloud, mobile and serverless nerd. Love .NET, Xamarin and Azure.</p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/claudiutomescu" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/claudiutomescu" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+<li><a href="mailto:claudiu.tomescu@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://claudiutomescu.com/blog/vscode-mssql-linux/">VS Code &#43; Microsoft SQL Server on Linux</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-11-27'>
+                                    November 27, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://claudiutomescu.com/blog/howto-efcore-vs2017/">How To Add EF Core To VS2017 projects</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-03-26'>
+                                    March 26, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://claudiutomescu.com/blog/write-once-run-anywhere/">Write Once, Run Anywhere - Are We There Yet?</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2014-07-16'>
+                                    July 16, 2014</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://claudiutomescu.com/blog/leadership-management/">Leadership vs Management</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2014-06-02'>
+                                    June 2, 2014</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://claudiutomescu.com/blog/msbuild-2014/">A glimpse into MS Build 2014</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2014-04-09'>
+                                    April 9, 2014</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mobile/">Mobile</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/development/">Development</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/xamarin/">Xamarin</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/.net-transformation/">.NET Transformation</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/conferences/">Conferences</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/developmemt/">Developmemt</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/ef-core/">EF Core</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/leadership/">Leadership</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/visual-studio/">Visual Studio</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Software craftsman with passion for all things .NET, web, C#, Xamarin, Azure...</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/claudiutomescu" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/claudiutomescu" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+<li><a href="mailto:claudiu.tomescu@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; #Sharp Monkey. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

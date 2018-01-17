@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>#Sharp Monkey</title>
+    <link>http://claudiutomescu.com/</link>
+    <description>Recent content on #Sharp Monkey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://claudiutomescu.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VS Code &#43; Microsoft SQL Server on Linux</title>
+      <link>http://claudiutomescu.com/blog/vscode-mssql-linux/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/vscode-mssql-linux/</guid>
+      <description>This is the first article in a series I&amp;rsquo;m starting about using VS Code on Mac to work with MS SQL Server on Linux running in a Docker container.
+First, if you don&amp;rsquo;t have already Docker for Mac installed, go ahead and install it. At the time of writing this article I&amp;rsquo;m using Docker for Mac Community Edition verison 17.03.1-ce-rc1-mac3 (15924).
+After installing Docker make sure you don&amp;rsquo;t sign in using your Docker ID.</description>
+    </item>
+    
+    <item>
+      <title>Hi, I&#39;m Claudiu</title>
+      <link>http://claudiutomescu.com/about/</link>
+      <pubDate>Fri, 25 Aug 2017 12:21:49 -0400</pubDate>
+      
+      <guid>http://claudiutomescu.com/about/</guid>
+      <description>I&amp;rsquo;m a passionate software developer and architect, who loves building applications using the Microsoft .NET stack as well as open-source: ASP.NET/Core, Xamarin, Azure, Angular, etc. I also love to talk/blog and share ideas on software development, Agile, distributed systems, design patterns, etc.
+On my day job I manage a team of software engineers building one of Finastra&amp;rsquo;s products within the Collateral Management Solutions line of business. Opinions and thoughts on this blog are my own.</description>
+    </item>
+    
+    <item>
+      <title>How To Add EF Core To VS2017 projects</title>
+      <link>http://claudiutomescu.com/blog/howto-efcore-vs2017/</link>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/howto-efcore-vs2017/</guid>
+      <description>Visual Studio 2017 has been released a few weeks ago, so I&amp;rsquo;m tinkering with the .NET Core tooling in VS2017 as I&amp;rsquo;m following Julie&amp;rsquo;s Pluralsight course on EF Core. In doing so, I&amp;rsquo;ve come across a few things, which I though I would write a blog about, so that other may benefit from.
+EF Core comes with command line tools that you can use outside Visual Studio. This is an alternative to the PowerShell commands you can use from VS&amp;rsquo;s Package Manager&amp;rsquo;s Console.</description>
+    </item>
+    
+    <item>
+      <title>Write Once, Run Anywhere - Are We There Yet?</title>
+      <link>http://claudiutomescu.com/blog/write-once-run-anywhere/</link>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/write-once-run-anywhere/</guid>
+      <description>For a number of years the software development industry has struggled to find a solution to a rather old idea: write once, run everywhere. First, there was Java, which for a little while seemed to be the answer, however for numerous reasons it didn’t live up to the dream. For a while it looked like everyone gave in, and the chase was off, however Microsoft released the .NET Framework and the game was on, once again.</description>
+    </item>
+    
+    <item>
+      <title>Leadership vs Management</title>
+      <link>http://claudiutomescu.com/blog/leadership-management/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/leadership-management/</guid>
+      <description>Throughout my career I’ve been fortunate enough to have great managers (and not so great ones) from which I’ve, equally, learned something: from the great ones what true leadership means and what it takes to be a good leader; from the not so great ones I’ve learned what mistakes to avoid. This is what I’d like to share with in this short post, and because I believe quotes are the best way to share the wisdom of ages, I’ll use them extensively.</description>
+    </item>
+    
+    <item>
+      <title>A glimpse into MS Build 2014</title>
+      <link>http://claudiutomescu.com/blog/msbuild-2014/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/msbuild-2014/</guid>
+      <description>Build is Microsoft’s annual developer conference and is probably one of the biggest developers’ conference around; this year’s Build has been a truly remarkable one. Microsoft has made a ton of announcements and released a great deal of interesting updates and preview products. It really is a very exciting time to be a Microsoft .NET developer, and I personally am looking forward to building new cool applications with these technologies.</description>
+    </item>
+    
+    <item>
+      <title>Upgrading Aging .NET Applications</title>
+      <link>http://claudiutomescu.com/blog/upgrading-aging-net-applications/</link>
+      <pubDate>Sun, 30 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/upgrading-aging-net-applications/</guid>
+      <description>Upgrading a functional line of business application built on Microsoft .NET stack is considered a risk and/or unnecessary expense by some businesses, and for good reasons: as with any upgrade process this may introduce unexpected errors and bugs due to changes in the newer version of the .NET stack. That being said, here are some of the reasons why your business should strongly consider upgrading an aging application.
+Security fixes Microsoft constantly updates the .</description>
+    </item>
+    
+    <item>
+      <title>Mobile Development Today</title>
+      <link>http://claudiutomescu.com/blog/mobile-development-today/</link>
+      <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/mobile-development-today/</guid>
+      <description>A recent IDC forecast of shipments of tablets and smartphones predicts that by 2017 87% of connected device sales will be tablets and smartphones. More specifically the forecast predicts that 5-inch devices will take the lead, followed by 7 and 9-inch tablets. Computer sales meanwhile are slowing down and the sales forecast is not encouraging.
+These forecasts underscore the direction that enterprises should focus their efforts; that is invest in mobile development, connected devices and how to get most out of these investments.</description>
+    </item>
+    
+    <item>
+      <title>Xamarin, PCLs, and iOS projects</title>
+      <link>http://claudiutomescu.com/blog/xamarin-pcl-ios/</link>
+      <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/xamarin-pcl-ios/</guid>
+      <description>This posts is motivated by my personal struggle fixing PCL (Portable Class Libraries) project support in latest version of Xamarin Studio (4.2.1 stable).
+I&amp;rsquo;ve been working for a while on a iOS project where some of the core components are built in a PCL project. Before the Xamarin Studio version 4.2.1 a hack was required in order to be able to correctly build and use PCL projects in iOS solutions using Xamarin Studio.</description>
+    </item>
+    
+  </channel>
+</rss>

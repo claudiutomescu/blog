@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on #Sharp Monkey</title>
+    <link>http://claudiutomescu.com/categories/</link>
+    <description>Recent content in Categories on #Sharp Monkey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://claudiutomescu.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.NET Transformation</title>
+      <link>http://claudiutomescu.com/categories/.net-transformation/</link>
+      <pubDate>Sun, 30 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/.net-transformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conferences</title>
+      <link>http://claudiutomescu.com/categories/conferences/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developmemt</title>
+      <link>http://claudiutomescu.com/categories/developmemt/</link>
+      <pubDate>Sun, 30 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/developmemt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://claudiutomescu.com/categories/development/</link>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EF Core</title>
+      <link>http://claudiutomescu.com/categories/ef-core/</link>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/ef-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leadership</title>
+      <link>http://claudiutomescu.com/categories/leadership/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>http://claudiutomescu.com/categories/mobile/</link>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio</title>
+      <link>http://claudiutomescu.com/categories/visual-studio/</link>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/visual-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xamarin</title>
+      <link>http://claudiutomescu.com/categories/xamarin/</link>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/xamarin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

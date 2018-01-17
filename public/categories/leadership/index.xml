@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leadership on #Sharp Monkey</title>
+    <link>http://claudiutomescu.com/categories/leadership/</link>
+    <description>Recent content in Leadership on #Sharp Monkey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://claudiutomescu.com/categories/leadership/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leadership vs Management</title>
+      <link>http://claudiutomescu.com/blog/leadership-management/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/leadership-management/</guid>
+      <description>Throughout my career I’ve been fortunate enough to have great managers (and not so great ones) from which I’ve, equally, learned something: from the great ones what true leadership means and what it takes to be a good leader; from the not so great ones I’ve learned what mistakes to avoid. This is what I’d like to share with in this short post, and because I believe quotes are the best way to share the wisdom of ages, I’ll use them extensively.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET Transformation on #Sharp Monkey</title>
+    <link>http://claudiutomescu.com/categories/.net-transformation/</link>
+    <description>Recent content in .NET Transformation on #Sharp Monkey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://claudiutomescu.com/categories/.net-transformation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Upgrading Aging .NET Applications</title>
+      <link>http://claudiutomescu.com/blog/upgrading-aging-net-applications/</link>
+      <pubDate>Sun, 30 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/upgrading-aging-net-applications/</guid>
+      <description>Upgrading a functional line of business application built on Microsoft .NET stack is considered a risk and/or unnecessary expense by some businesses, and for good reasons: as with any upgrade process this may introduce unexpected errors and bugs due to changes in the newer version of the .NET stack. That being said, here are some of the reasons why your business should strongly consider upgrading an aging application.
+Security fixes Microsoft constantly updates the .</description>
+    </item>
+    
+  </channel>
+</rss>
