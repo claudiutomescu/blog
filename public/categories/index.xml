@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>Docker</title>
+      <link>http://claudiutomescu.com/categories/docker/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>EF Core</title>
       <link>http://claudiutomescu.com/categories/ef-core/</link>
       <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
@@ -66,11 +75,29 @@
     </item>
     
     <item>
+      <title>MSSQL</title>
+      <link>http://claudiutomescu.com/categories/mssql/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/mssql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mobile</title>
       <link>http://claudiutomescu.com/categories/mobile/</link>
       <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>http://claudiutomescu.com/categories/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VS Code</title>
+      <link>http://claudiutomescu.com/categories/vs-code/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/categories/vs-code/</guid>
       <description></description>
     </item>
     

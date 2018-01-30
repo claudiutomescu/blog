@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VS Code on #Sharp Monkey</title>
+    <link>http://claudiutomescu.com/categories/vs-code/</link>
+    <description>Recent content in VS Code on #Sharp Monkey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://claudiutomescu.com/categories/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VS Code &#43; Microsoft SQL Server on Linux</title>
+      <link>http://claudiutomescu.com/blog/vscode-mssql-linux/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://claudiutomescu.com/blog/vscode-mssql-linux/</guid>
+      <description>This is the first article in a series I&amp;rsquo;m starting about using VS Code on Mac to work with MS SQL Server on Linux running in a Docker container.
+First, if you don&amp;rsquo;t have already Docker for Mac installed, go ahead and install it. At the time of writing this article I&amp;rsquo;m using Docker for Mac Community Edition verison 17.03.1-ce-rc1-mac3 (15924).
+After installing Docker make sure you don&amp;rsquo;t sign in using your Docker ID.</description>
+    </item>
+    
+  </channel>
+</rss>

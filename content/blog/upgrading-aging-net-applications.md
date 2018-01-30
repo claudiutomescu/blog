@@ -6,7 +6,7 @@ categories = [".NET Transformation","Developmemt"]
 description = ""
 linktitle = ""
 featured = ""
-featuredpath = "date"
+featuredpath = ""
 featuredalt = ""
 type = "post"
 draft = false
@@ -40,6 +40,6 @@ This is a tricky one since in general taking advantage of new features requires 
 
 These are just a few of the reasons why newer versions of the .NET Framework should not be dismissed right away based on the popular belief “if works why change it?” At the same time a .NET Framework upgrade should be properly evaluated, planned and executed to ensure a successful and painless transition for your applications.
 
-[1] [Microsoft Security Bulletin](http://technet.microsoft.com/en-us/security/dn481339)
+[1][microsoft security bulletin](http://technet.microsoft.com/en-us/security/dn481339)
 
-[2] [Microsoft Product Lifecycle Search]( http://support.microsoft.com/lifecycle/search/?sort=pn&alpha=.net+framework&wa=wsignin1.0)
+[2][microsoft product lifecycle search]( http://support.microsoft.com/lifecycle/search/?sort=pn&alpha=.net+framework&wa=wsignin1.0)

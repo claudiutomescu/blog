@@ -1,11 +1,19 @@
+
+
+
+    
+        
+    
+
+
+
+
 <!DOCTYPE HTML>
 
 <html>
     <head>
         
-            
-                <title>VS Code &#43; Microsoft SQL Server on Linux</title>
-            
+            <title>Docker Posts - #Sharp Monkey</title>
         
 
         <meta charset="utf-8" />
@@ -15,27 +23,24 @@
 
 
         
-            <meta name="author" content="Claudiu Tomescu">
         
-        
-            <meta name="description" content="Getting started with MS SQL on Linux &amp; VS Code">
+            
+                <meta name="description" content="2017 Copyright Claudiu Tomescu. Powered by Hugo">
+            
         
 
-        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="VS Code &#43; Microsoft SQL Server on Linux"/>
-<meta name="twitter:description" content="Getting started with MS SQL on Linux &amp; VS Code"/>
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Docker"/>
+<meta name="twitter:description" content="2017 Copyright Claudiu Tomescu. Powered by Hugo"/>
 <meta name="twitter:site" content="@claudiutomescu"/>
 
-        <meta property="og:title" content="VS Code &#43; Microsoft SQL Server on Linux" />
-<meta property="og:description" content="Getting started with MS SQL on Linux &amp; VS Code" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://claudiutomescu.com/blog/vscode-mssql-linux/" />
+        <meta property="og:title" content="Docker" />
+<meta property="og:description" content="2017 Copyright Claudiu Tomescu. Powered by Hugo" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://claudiutomescu.com/categories/docker/" />
 
 
 
-<meta property="article:published_time" content="2017-11-27T00:00:00&#43;00:00"/>
-
-<meta property="article:modified_time" content="2017-11-27T00:00:00&#43;00:00"/>
-
+<meta property="og:updated_time" content="2017-11-27T00:00:00&#43;00:00"/>
 
 
 
@@ -47,17 +52,9 @@
 
 
         
-<meta itemprop="name" content="VS Code &#43; Microsoft SQL Server on Linux">
-<meta itemprop="description" content="Getting started with MS SQL on Linux &amp; VS Code">
+<meta itemprop="name" content="Docker">
+<meta itemprop="description" content="2017 Copyright Claudiu Tomescu. Powered by Hugo">
 
-
-<meta itemprop="datePublished" content="2017-11-27T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2017-11-27T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="500">
-
-
-
-<meta itemprop="keywords" content="" />
 
         
 
@@ -91,7 +88,6 @@
         <div id="wrapper">
 
     
-    
 <header id="header">
     
         <h2><a href="/">#Sharp Monkey</i></a></h2>
@@ -123,10 +119,6 @@
     </nav>
     <nav class="main">
         <ul>
-            
-            <li id="share-nav" class="share-menu" style="display:none;">
-                <a class="fa-share-alt" href="#share-menu">Share</a>
-            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -227,70 +219,16 @@
         
 </section>
 
-    <section id="share-menu">
-    <section id="social-share-nav">
-        <ul class="links">
-            <header>
-                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
-            </header>
-            
-
-
-<li><a href="//twitter.com/share?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f&text=VS%20Code%20%2b%20Microsoft%20SQL%20Server%20on%20Linux&via=claudiutomescu" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
-</a></li>
-
-
-<li><a href="//plus.google.com/share?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
-</a></li>
-
-
-<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
-</a></li>
-
-
-<li><a href="//reddit.com/submit?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f&title=VS%20Code%20%2b%20Microsoft%20SQL%20Server%20on%20Linux" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
-</a></li>
-
-
-<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f&title=VS%20Code%20%2b%20Microsoft%20SQL%20Server%20on%20Linux" target="_blank" class="share-btn linkedin">
-    <i class="fa fa-linkedin"></i>
-    <p>LinkedIn</p>
-</a></li>
-
-
-<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f&title=VS%20Code%20%2b%20Microsoft%20SQL%20Server%20on%20Linux" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-</a></li>
-
-
-<li><a href="mailto:?subject=Check out this post by Claudiu%20Tomescu&body=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-</a></li>
-
-        </ul>
-    </section>
-</section>
-
     
     <div id="main">
+        <h1>Docker</h1>
         
         
-        <article class="post">
+            <article class="post">
     <header>
     <div class="title">
         
-            <h1><a href="http://claudiutomescu.com/blog/vscode-mssql-linux/">VS Code &#43; Microsoft SQL Server on Linux</a></h1>
-            
+            <h2><a href="http://claudiutomescu.com/blog/vscode-mssql-linux/">VS Code &#43; Microsoft SQL Server on Linux</a></h2>
         
         
             <p>Getting started with MS SQL on Linux &amp; VS Code</p>
@@ -312,117 +250,16 @@
     </div>
 </header>
 
-
-    <section id="social-share">
-        <ul class="icons">
-            
-
-
-<li><a href="//twitter.com/share?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f&text=VS%20Code%20%2b%20Microsoft%20SQL%20Server%20on%20Linux&via=claudiutomescu" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
-</a></li>
-
-
-<li><a href="//plus.google.com/share?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
-</a></li>
-
-
-<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
-</a></li>
-
-
-<li><a href="//reddit.com/submit?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f&title=VS%20Code%20%2b%20Microsoft%20SQL%20Server%20on%20Linux" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
-</a></li>
-
-
-<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f&title=VS%20Code%20%2b%20Microsoft%20SQL%20Server%20on%20Linux" target="_blank" class="share-btn linkedin">
-    <i class="fa fa-linkedin"></i>
-    <p>LinkedIn</p>
-</a></li>
-
-
-<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f&title=VS%20Code%20%2b%20Microsoft%20SQL%20Server%20on%20Linux" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-</a></li>
-
-
-<li><a href="mailto:?subject=Check out this post by Claudiu%20Tomescu&body=http%3a%2f%2fclaudiutomescu.com%2fblog%2fvscode-mssql-linux%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-</a></li>
-
-        </ul>
-    </section>
     
 
-    <div id="content">
-        <p>This is the first article in a series I&rsquo;m starting about using VS Code on Mac to work with MS SQL Server on Linux running in a Docker container.</p>
-
-<p>First, if you don&rsquo;t have already Docker for Mac installed, go ahead and install it. At the time of writing this article I&rsquo;m using Docker for Mac Community Edition verison 17.03.1-ce-rc1-mac3 (15924).</p>
-
-<p>After installing Docker make sure you don&rsquo;t sign in using your Docker ID. If you do so, you are going to get an error when trying to pull the MS SQL server image:</p>
-
-<p><code>docker: Error response from daemon: Get https://registry-1.docker.io/v2/microsoft/mssql-server-linux/manifests/latest: unauthorized: incorrect username or password</code></p>
-
-<p>Make sure you configure your Docker with the minimum prerequisites for MS SQL Server for Linux. That is, a minimum of 4GB of RAM, and 4GB of disk space.</p>
-
-<p>Next, you have to pull the MS SQL Server on Linux Docker image and start a container. You can do this in one step by attempting to start the container. Docker will automatically pull the image for you, if it doesn&rsquo;t exist locally.</p>
-
-<p>In order to start up a MS SQL Server container I used the following command:</p>
-
-<p><code>docker run -v /Users/claudiu/Documents:/Documents -i -e ACCEPT_EULA=Y -e SA_PASSWORD=SaPa55w0rd -p 1433:1433 -d microsoft/mssql-server-linux</code></p>
-
-<p>As you can see I&rsquo;m using a few Docker run options:</p>
-
-<p><strong>-v</strong> for VS Code to be able to access local files when talking to MS SQL Server</p>
-
-<p><strong>-i</strong> for interactive mode</p>
-
-<p><strong>-e</strong> to specify 2 environment variables required by MS SQL Server: ACCEPT_EULA and SA_PASSWORD</p>
-
-<p><strong>-p</strong> to specify the SQL Server port</p>
-
-<p><strong>-d</strong> to specify the Docker image to use to start up the container</p>
-
-<p>If the container starts successfully you&rsquo;ll get a container ID similar to one in the screenshot below:</p>
-
-<p><img src="https://nry6lw.by3301.livefilestore.com/y4mV1dRT-cr2BDiecSfpa30-C_jkTMhjZdIVM_xmeRoOh6iEwLlIlYH96L21bKua_Vkh0WiCD5nGRyUhC8XlYLTH1a_Xf6HjpnINRPRxOeiTpbJDdHvGSkuijW4AvUom9XpaZwAkp4pVEppqHOPltsMOaybqS47J3QUOUUnVzaN4-NSbHh7uXlTY72A8w941BRAiEpu8_OzqCbAyxsr9WmZNg?width=680&amp;height=26&amp;cropmode=none" alt="Sample Docker Container ID" /></p>
-
-<p>Make sure you meet the complexity requirements for password, otherwise the container won&rsquo;t start. Also, make sure you&rsquo;re not using special characters in the password (I used $ in my password and I wasn&rsquo;t able to establish a connection to SQL Server instance)</p>
-
-<p>Now, with the container started let&rsquo;s focus on VS Code. First, you need the <a href="https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql">MSSQL extension for VS Code</a></p>
-
-<p>With the extension installed, open the command palette and type:</p>
-
-<p><code>&gt;MS SQL: Connect</code></p>
-
-<p>Follow the prompts to create a connection profile. Use 127.0.0.1 for the server name/IP. For username use sa with the password you specified when you started the Docker container.</p>
-
-<p>If everything worked properly, you should see the connection info in VS Code status bar:</p>
-
-<p><code>127.0.0.1:master:sa</code></p>
-
-<p>Now you can try a simple T-SQL query in VS Code, for example something like:</p>
-
-<p><code>SELECT * FROM INFORMATION_SCHEMA.TABLES;</code></p>
-
-<p>You can see how you get the results in a nicely formatted grid, similar to MS SQL Server Management Studio on Windows:</p>
-
-<p><img src="https://mqefpg.by3301.livefilestore.com/y4m9I0FivxaljTvAvJfg-GHLvIYrTvBkU8PKX0U7-MeHUgzV746J8Atz5n018ZnlqPm-9fVdTLfHATYjd4vXxafbxV4yuOsclO5Me7sT7R_KcwqraOluk_0pVy_YAa18TYi4VKch-06v8KhcbbL2OL5hDrIjKQoALhGwVfq3A-Xx3uXJhAXtTa2t1LG6DKxcWdArwrHVWohIpYbkGhBchYsFQ?width=680&amp;height=338&amp;cropmode=none" alt="VSCode MSSQL SELECT results" /></p>
-
-<p>This is it! You now have a MS SQL Server instance running on your Mac, and VS Code configured to work with it. In the next articles we&rsquo;ll look at using .NET Core and EF Core to create a simple application which uses SQL Server on Linux as persistence store.</p>
-
-    </div>
+    <p>This is the first article in a series I&rsquo;m starting about using VS Code on Mac to work with MS SQL Server on Linux running in a Docker container.
+First, if you don&rsquo;t have already Docker for Mac installed, go ahead and install it. At the time of writing this article I&rsquo;m using Docker for Mac Community Edition verison 17.03.1-ce-rc1-mac3 (15924).
+After installing Docker make sure you don&rsquo;t sign in using your Docker ID.</p>
 
     <footer>
+        <ul class="actions">
+            <li><a href="http://claudiutomescu.com/blog/vscode-mssql-linux/" class="button big">Continue Reading</a></li>
+        </ul>
         <ul class="stats">
     
         
@@ -458,61 +295,21 @@
 
     </footer>
 </article>
+
+        
+
+        
 <ul class="actions pagination">
     
-        <li><a href="http://claudiutomescu.com/blog/howto-efcore-vs2017/"
-                class="button big previous">How To Add EF Core To VS2017 projects</a></li>
+        <li><a href="#" class="disabled button big previous">Previous Page</a></li>
     
 
+    
+        <li><a href="#" class="disabled button big next">Next Page</a></li>
     
 </ul>
 
-
-
-    
-        <article class="post">
-            <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "claudiutomescublog" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        </article>
-    
-
-
-		<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-      
-      
-      if (window.location.hostname == "localhost")
-                return;
-
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      var disqus_shortname = 'claudiutomescublog';
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-	</div>
+    </div>
     
 <section id="sidebar">
 
@@ -531,6 +328,9 @@
                 </header>
             
             <ul class="icons">
+                
+                    <li><a href="http://claudiutomescu.com/categories/docker/index.xml" type="application/rss+xml"
+                        target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
                 
                     
@@ -837,6 +637,9 @@
     
         <section id="footer">
             <ul class="icons">
+                
+                    <li><a href="http://claudiutomescu.com/categories/docker/index.xml" type="application/rss+xml"
+                        target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
                 
                     

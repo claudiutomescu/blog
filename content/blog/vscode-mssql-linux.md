@@ -2,11 +2,11 @@
 title = "VS Code + Microsoft SQL Server on Linux"
 author = "Claudiu Tomescu"
 date = "2017-11-27"
-categories = []
+categories = ["VS Code","Docker","MSSQL"]
 description = "Getting started with MS SQL on Linux & VS Code"
 linktitle = ""
 featured = ""
-featuredpath = "date"
+featuredpath = ""
 featuredalt = ""
 type = "post"
 draft = false

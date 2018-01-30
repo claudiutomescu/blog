@@ -90,6 +90,12 @@
   </url>
   
   <url>
+    <loc>http://claudiutomescu.com/categories/docker/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://claudiutomescu.com/categories/ef-core/</loc>
     <lastmod>2017-03-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -102,6 +108,12 @@
   </url>
   
   <url>
+    <loc>http://claudiutomescu.com/categories/mssql/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://claudiutomescu.com/categories/mobile/</loc>
     <lastmod>2014-07-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -109,6 +121,12 @@
   
   <url>
     <loc>http://claudiutomescu.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://claudiutomescu.com/categories/vs-code/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
